@@ -1,3 +1,5 @@
+using System;
+
 namespace AulaPOO_Abstracao.classes
 {
     public abstract class Cartao : Pagamento
@@ -7,7 +9,7 @@ namespace AulaPOO_Abstracao.classes
         public string titular;
         public string cvv;
         public string SalvarCartao(){
-            return "";
+           return "";
         }
     }
 }

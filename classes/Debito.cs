@@ -8,9 +8,6 @@ namespace AulaPOO_Abstracao.classes
             
         }
 
-        public override string Desconto(int valor)
-        {
-            return "";
-        }
+    
     }
 }

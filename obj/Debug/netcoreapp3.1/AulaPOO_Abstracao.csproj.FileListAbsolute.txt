@@ -1,0 +1,13 @@
+C:\Users\mrodr\Documents\C#\AulaPOO_Abstracao\bin\Debug\netcoreapp3.1\AulaPOO_Abstracao.exe
+C:\Users\mrodr\Documents\C#\AulaPOO_Abstracao\bin\Debug\netcoreapp3.1\AulaPOO_Abstracao.deps.json
+C:\Users\mrodr\Documents\C#\AulaPOO_Abstracao\bin\Debug\netcoreapp3.1\AulaPOO_Abstracao.runtimeconfig.json
+C:\Users\mrodr\Documents\C#\AulaPOO_Abstracao\bin\Debug\netcoreapp3.1\AulaPOO_Abstracao.runtimeconfig.dev.json
+C:\Users\mrodr\Documents\C#\AulaPOO_Abstracao\bin\Debug\netcoreapp3.1\AulaPOO_Abstracao.dll
+C:\Users\mrodr\Documents\C#\AulaPOO_Abstracao\bin\Debug\netcoreapp3.1\AulaPOO_Abstracao.pdb
+C:\Users\mrodr\Documents\C#\AulaPOO_Abstracao\obj\Debug\netcoreapp3.1\AulaPOO_Abstracao.csprojAssemblyReference.cache
+C:\Users\mrodr\Documents\C#\AulaPOO_Abstracao\obj\Debug\netcoreapp3.1\AulaPOO_Abstracao.AssemblyInfoInputs.cache
+C:\Users\mrodr\Documents\C#\AulaPOO_Abstracao\obj\Debug\netcoreapp3.1\AulaPOO_Abstracao.AssemblyInfo.cs
+C:\Users\mrodr\Documents\C#\AulaPOO_Abstracao\obj\Debug\netcoreapp3.1\AulaPOO_Abstracao.csproj.CoreCompileInputs.cache
+C:\Users\mrodr\Documents\C#\AulaPOO_Abstracao\obj\Debug\netcoreapp3.1\AulaPOO_Abstracao.dll
+C:\Users\mrodr\Documents\C#\AulaPOO_Abstracao\obj\Debug\netcoreapp3.1\AulaPOO_Abstracao.pdb
+C:\Users\mrodr\Documents\C#\AulaPOO_Abstracao\obj\Debug\netcoreapp3.1\AulaPOO_Abstracao.genruntimeconfig.cache
