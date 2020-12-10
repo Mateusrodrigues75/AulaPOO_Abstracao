@@ -51,12 +51,7 @@ namespace AulaPOO_Abstracao
                 case 3:
                  //Debito
                  Debito debito = new Debito();
-                Console.Write("Digite o nome do titular: ");
-                debito.titular = Console.ReadLine();
-                Console.Write("Digite o número do cartão: ");
-                debito.numero = Console.ReadLine();
-                Console.Write("Digite o cvv do cartão: ");
-                debito.cvv = Console.ReadLine();
+                debito.SalvarCartao();
                 debito.Pagar(precoCompra);
                     return;
                 case 0:
