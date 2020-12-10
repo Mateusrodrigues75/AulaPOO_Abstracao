@@ -7,24 +7,24 @@ namespace AulaPOO_Abstracao
     {
         static void Main(string[] args)
         {
-            float precoProduto;
+            float precoCompra;
             int escolha;
             Console.WriteLine("-----Bem Vindo ao Sistema de Compra-----");
 
             Console.WriteLine("Digite o valor do Produto: ");
-            precoProduto = float.Parse(Console.ReadLine());
+            precoCompra = float.Parse(Console.ReadLine());
 
 
             do
             {
-            Console.WriteLine("Escolha uma forma de Pagamento:\n[1] - Boleto\n[2] - Crédito\n[3] - Débito\n[0] - Sair da Aplicação");
+            Console.WriteLine("Escolha uma forma de Pagamento:\n[1] - Boleto -> 12% de Desconto\n[2] - Crédito\n[3] - Débito\n[0] - Sair da Aplicação");
             escolha = int.Parse(Console.ReadLine());
             switch (escolha)
             {
                 case 1:
                 //boleto
                 Boleto boleto = new Boleto();
-                boleto.Valor = precoProduto;
+                boleto.Valor = precoCompra;
 
                 boleto.Registrar(boleto.Valor, boleto.Data, boleto.CodigoDeBarras);
                     return;
@@ -45,12 +45,20 @@ namespace AulaPOO_Abstracao
                     Console.WriteLine("Inicie a operação novamente.");
                     return;
                 }
-                novoCredito.Pagar(precoProduto);
+                novoCredito.Pagar(precoCompra);
 
                     return;
                 case 3:
-
-                    break;
+                 //Debito
+                 Debito debito = new Debito();
+                Console.Write("Digite o nome do titular: ");
+                debito.titular = Console.ReadLine();
+                Console.Write("Digite o número do cartão: ");
+                debito.numero = Console.ReadLine();
+                Console.Write("Digite o cvv do cartão: ");
+                debito.cvv = Console.ReadLine();
+                debito.Pagar(precoCompra);
+                    return;
                 case 0:
                 Console.WriteLine("Muito Obrigado por acessar. Volte Sempre!");
                     return;
